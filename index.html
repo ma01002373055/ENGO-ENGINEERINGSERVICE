@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Engineering Services - Mohamed Abd El Kareem</title>
+
+    <!-- Simple internal CSS for one-page layout -->
+.notice {
+    background-color: #fff3cd;   /* لون أصفر خفيف */
+    color: #856404;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #f1e3a3;
+}
+.notice strong {
+    font-weight: bold;
+}
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background-color: #0b3558;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 0.95rem;
+        }
+
+        nav {
+            background-color: #06243c;
+            padding: 8px 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 10px 40px;
+        }
+
+        /* Two-column bilingual layout */
+        .bilingual-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .col {
+            flex: 1 1 300px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 6px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.06);
+        }
+
+        .col.en {
+            text-align: left;
+        }
+
+        .col.ar {
+            direction: rtl;
+            text-align: right;
+            font-family: "Tahoma", "Segoe UI", sans-serif;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #0b3558;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            margin-top: 10px;
+            margin-bottom: 6px;
+            color: #0b3558;
+        }
+
+        p {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 18px;
+            margin-top: 4px;
+        }
+
+        .ar ul {
+            margin-left: 0;
+            margin-right: 18px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #e6f0fa;
+            color: #0b3558;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background-color: #0b3558;
+            color: #fff;
+            text-align: center;
+        }
+
+        .contact-box a {
+            color: #ffd666;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 10px;
+            background-color: #06243c;
+            color: #ccc;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>ENGO</h1>
+    <p>Electrical Engineering Services – Design | Shop Drawings | BIM Modeling | Bid Pricing</p>
+</header>
+<div class="notice">
+   <div class="notice">
+    <strong>Payment after first delivery:</strong>
+    For new clients, the first batch of work is delivered according to the agreed scope and contract.
+    Payment is requested only after you receive and approve this first delivery, and any further payments follow the milestones defined in our agreement.
+    <br>
+    <strong>الدفع بعد تسليم أول دفعة:</strong>
+    للعملاء الجدد، يتم تنفيذ وتسليم أول دفعة من الأعمال طبقًا لنطاق العمل والاتفاق المبرم،
+    ثم يُطلَب السداد فقط بعد استلامكم واعتمادكم لهذه الدفعة، مع ربط أى دفعات لاحقة بالمراحل المتفق عليها فى العقد.
+</div>
+
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About / نبذة</a>
+    <a href="#contact">Contact / تواصل</a>
+</nav>
+
+<div class="container">
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="bilingual-section">
+        <div class="col en">
+            <span class="badge">Services</span>
+            <h2>Electrical Engineering Services</h2>
+
+            <h3>Electrical Shop Drawings</h3>
+            <p>
+                Preparation of coordinated electrical shop drawings (power, lighting, low current, earthing & lightning)
+                ready for site execution and consultant approval.
+            </p>
+
+            <h3>Modeling & BIM Coordination</h3>
+            <p>
+                3D modeling and coordination for electrical systems using modern CAD/BIM tools to minimize clashes with
+                architectural, structural, and mechanical works.
+            </p>
+
+            <h3>Design & Calculations</h3>
+            <p>
+                Complete electrical design including load calculations, cable sizing, short-circuit checks, panel
+                schedules, and single-line diagrams in compliance with IEC/NEC/NFPA/BS.
+            </p>
+
+            <h3>Bid Pricing & BOQ Support</h3>
+            <p>
+                Preparing BOQ, reviewing quantities, and supporting contractors and clients in pricing, value engineering,
+                and technical queries during tender stage.
+            </p>
+        </div>
+
+        <div class="col ar">
+            <span class="badge">الخدمات</span>
+            <h2>الخدمات الهندسية الكهربائية</h2>
+
+            <h3>لوحات ورسومات شوب دروينج</h3>
+            <p>
+                إعداد رسومات تنفيذية منسَّقة لأنظمة القوى والإنارة والتيار الخفيف وأنظمة التأريض والبرق،
+                جاهزة للتنفيذ بالموقع واعتماد الاستشارى.
+            </p>
+
+            <h3>النمذجة ثلاثية الأبعاد و الـ BIM</h3>
+            <p>
+                نمذجة ثلاثية الأبعاد وتنسيق كامل للأنظمة الكهربائية باستخدام برامج CAD / BIM
+                لتقليل التعارضات مع الأعمال المعمارية والإنشائية والميكانيكية.
+            </p>
+
+            <h3>التصميم والحسابات الكهربائية</h3>
+            <p>
+                تصميم متكامل يشمل حسابات الأحمال، مقاطع الكابلات، دراسات القصر، جداول اللوحات،
+                ومخططات الخط الواحد طبقًا للمعايير الدولية IEC / NEC / NFPA / BS.
+            </p>
+
+            <h3>التسعير و دعم المناقصات</h3>
+            <p>
+                إعداد وحصر الـ BOQ، مراجعة الكميات، ومساندة المقاولين والمالكين فى التسعير
+                وتقديم بدائل القيمة الهندسية والرد على الاستفسارات الفنية أثناء مرحلة المناقصة.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="bilingual-section">
+        <div class="col en">
+            <span class="badge">Projects</span>
+            <h2>Selected Project Types</h2>
+            <p>Experience across different project types, including:</p>
+            <ul>
+                <li>Hospitals and healthcare facilities</li>
+                <li>Industrial plants and factories (FMCG, manufacturing)</li>
+                <li>Commercial and administrative buildings</li>
+                <li>Residential compounds and mixed-use developments</li>
+            </ul>
+        </div>
+
+        <div class="col ar">
+            <span class="badge">المشاريع</span>
+            <h2>نماذج من أنواع المشاريع</h2>
+            <p>خبرة فى تصميم وتنفيذ مشاريع متنوعة، منها:</p>
+            <ul>
+                <li>المستشفيات والمنشآت الصحية</li>
+                <li>المصانع والمنشآت الصناعية (الأغذية، التصنيع، …إلخ)</li>
+                <li>المبانى التجارية والإدارية</li>
+                <li>التجمعات السكنية والمجمعات متعددة الاستخدام</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="bilingual-section">
+        <div class="col en">
+            <span class="badge">About</span>
+            <h2>About the Engineer</h2>
+            <p>
+                Electrical Technical Office Manager and Electrical Design Engineer with more than 17 years of
+                experience in Egypt and GCC markets.
+            </p>
+            <p>
+                Strong background in technical office management, design review, coordination, and site support
+                for medium and large-scale projects.
+            </p>
+        </div>
+
+        <div class="col ar">
+            <span class="badge">نبذة</span>
+            <h2>نبذة عن المهندس</h2>
+            <p>
+                مهندس تصميم كهرباء و مدير مكتب فنى كهرباء بخبرة تزيد عن ١٧ سنة فى أسواق
+                مصر والخليج.
+            </p>
+            <p>
+                خبرة قوية فى إدارة المكتب الفنى، مراجعة التصميمات، التنسيق الفنى، ودعم التنفيذ
+                بالموقع فى المشاريع المتوسطة والكبيرة.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="bilingual-section">
+        <div class="col contact-box">
+            <h2>Contact / تواصل</h2>
+            <p style="margin-top: 10px;">
+                Email: <a href="mailto:Mohamed_abd_elkreem@yahoo.com">Mohamed_abd_elkreem@yahoo.com</a>
+            </p>
+            <p>Phone / واتساب: <a href="tel:+201002373055">+20 100 237 3055</a></p>
+            <p style="margin-top: 10px;">
+                Send your drawings and project details to receive a detailed technical and commercial proposal.
+            </p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    © 2025 Mohamed Abd El Kareem – Electrical Engineering Services
+</footer>
+
+</body>
+</html>
