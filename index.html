@@ -165,15 +165,49 @@
                 font-size: 1.4rem;
             }
         }
-    </style>
+   .btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary {
+    background-color: #0b3558;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #06243c;
+    transform: translateY(-1px);
+}
+ </style>
 </head>
 
 <body>
 
 <header id="home">
-    <h1>ENGO</h1>
-    <p>Electrical Engineering Services – Design | Shop Drawings | BIM Modeling | Bid Pricing</p>
+    <div class="brand">
+        <div class="brand-logo">ENGO</div>
+        <div class="brand-text">
+            <h1>Mohamed Abd El Kareem</h1>
+            <p>Electrical Engineering Services – Design | Shop Drawings | BIM Modeling | Bid Pricing</p>
+        </div>
+    </div>
 </header>
+<header id="home">
+    <div class="brand">
+        <div class="brand-logo">ENGO</div>
+        <div class="brand-text">
+            <h1>Mohamed Abd El Kareem</h1>
+            <p>Electrical Engineering Services – Design | Shop Drawings | BIM Modeling | Bid Pricing</p>
+        </div>
+    </div>
+</header>
+
 <div class="notice">
    <div class="notice">
     <strong>Payment after first delivery:</strong>
@@ -314,17 +348,22 @@
 
     <!-- CONTACT SECTION -->
     <section id="contact" class="bilingual-section">
-        <div class="col contact-box">
-            <h2>Contact / تواصل</h2>
-            <p style="margin-top: 10px;">
-                Email: <a href="mailto:Mohamed_abd_elkreem@yahoo.com">Mohamed_abd_elkreem@yahoo.com</a>
-            </p>
-            <p>Phone / واتساب: <a href="tel:+201002373055">+20 100 237 3055</a></p>
-            <p style="margin-top: 10px;">
-                Send your drawings and project details to receive a detailed technical and commercial proposal.
-            </p>
-        </div>
-    </section>
+    <div class="col contact-box">
+        <h2>Contact / تواصل</h2>
+        <p style="margin-top: 10px;">
+            Email: <a href="mailto:Mohamed_abd_elkreem@yahoo.com">Mohamed_abd_elkreem@yahoo.com</a>
+        </p>
+        <p>Phone / واتساب: <a href="tel:+201002373055">+20 100 237 3055</a></p>
+
+        <p style="margin-top: 12px;">
+            <a class="btn btn-primary"
+               href="mailto:Mohamed_abd_elkreem@yahoo.com?subject=Request%20for%20Engineering%20Services%20Quote&body=Please%20share%20project%20type%2C%20location%2C%20timeline%2C%20and%20any%20available%20drawings.">
+                Request a Quote / طلب عرض سعر
+            </a>
+        </p>
+    </div>
+</section>
+
 
 </div>
 
